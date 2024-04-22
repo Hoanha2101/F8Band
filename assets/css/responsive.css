@@ -1,0 +1,142 @@
+/* Phần responsive của PC */
+@media (min-width:64em){
+    #hidden{
+        display: none;
+    }
+    #mobile-menu{
+        display: none;
+    }
+}
+/* Phần resoponsive của máy tính bảng/Ipad */
+@media (min-width:46.25em) and (max-width:63.9375em){
+    
+    #mobile-menu{
+        display: none;
+    }
+    #content .class-section{
+        margin: 0;
+        max-width: 100%;
+    }
+    .class-section .about-content{
+        font-size: 15px !important;
+    }
+    .tour-section .ticket-list li{
+        font-size: 12px !important;
+    }
+    .tour-section .quantity{
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .class-section-sub-heading{
+        font-size: 12px !important;
+    }
+    .footer-icon-social a{
+        font-size: 30px;
+        letter-spacing: 12px;
+    }
+    .footer-content-link{
+        font-size: 22px;
+    }
+    .buy-tickets{ 
+        padding: 12px 16px; 
+    }
+    .send-box{
+        padding: 12px 16px;
+    }
+}
+
+/* Phần responsive của mobile */
+@media (max-width:46.1875em){
+    /* Mở đầu phần Header */
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display:block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .search-icon {
+        display: none;
+    }
+    #nav .subnav{
+        position:initial;
+    }
+    #nav .subnav a{
+        color: #fff;
+        background-color: rgb(65, 54, 54);
+        padding: 5px 35px;
+    }
+    #header .menu-icon{
+        color: #fff;
+        font-size: 15px;
+        display: inline-block;
+        line-height: 46px;
+        padding: 0px 24px;
+        top: 0;
+        position: absolute;
+        right: 0;
+    }   
+
+    #header .menu-icon:hover{
+        background-color: #ccc;
+        cursor: pointer;  
+        color: black;
+    }
+
+    #header .menu-btn{
+        float: right;
+        right: 0;
+    }
+
+    /* Kết thúc phần Header */
+
+    /* Mở đầu phần thân */
+    #content .team-item{
+        width: 100% !important;
+        margin-bottom: 16px;
+    }
+    #slider .text-heading{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #slider .text-description{
+        font-size: 12px;
+    }
+    #content .team-img{
+        width: 260px;
+    }
+    #content .tour-place{
+        width: 100%;
+        margin: 8px 0px 8px 0px;  
+    }
+    .buy-tickets{ 
+        width: 100%;  
+        padding: 12px 16px; 
+    }
+    .send-box{
+        padding: 12px 16px;
+    }
+    .col-half{
+        width: 100%;
+    }
+    .text-contact-body{
+        margin-bottom: 16px;
+    }
+    .col{
+        padding: 8px;
+    }
+    .footer-icon-social a{
+        font-size: 30px;
+        letter-spacing: 18px;
+    }
+    .footer-content-link{
+        font-size: 22px;
+        margin-top: 40px;
+    }  
+    /* Kết thúc phần thân */
+}
